@@ -1,4 +1,6 @@
+# Criando API com NodeJs
 
+Criando uma API REST com NodeJS, utilizando o padrão Model-View-Controller (MVC). 
 
 ### npm init e instalação dos pacotes:
 ```
@@ -11,5 +13,7 @@ npm install http express debug --save
 npm install 
 ```
 
-### Criando um servidor web
-
+### Instalar nodemon
+```
+npm install nodemon --save-dev
+```
