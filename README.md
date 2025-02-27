@@ -5,6 +5,7 @@ Criando uma API REST com NodeJS, utilizando o padrão Model-View-Controller (MVC
 ## Tecnologias utilizadas:
 * Javascript
 * NodeJS (nodemon)
+* Docker
 * MongoDB (com 3Tstudio)
 
 ### Início e instalação dos pacotes

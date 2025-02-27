@@ -7,6 +7,9 @@ const app = express();
 // Conecta ao banco
 mongoose.connect('mongodb://admin:admin@localhost:27017/node-store?authSource=admin');
 
+// Carrega os MOdels
+const Product = require('./models/product')
+
 // Carrega as rotas
 const indexRoute = require('./routes/index');
 const productRoute = require('./routes/product');
