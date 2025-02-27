@@ -1,8 +1,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
 
 const app = express();
-const router = express.Router();
+
+// Conecta ao banco
+mongoose.connect('mongodb://admin:admin@localhost:27017/node-store?authSource=admin');
 
 // Carrega as rotas
 const indexRoute = require('./routes/index');
