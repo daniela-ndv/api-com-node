@@ -1,4 +1,3 @@
-const mongoose = require('mongoose');
 const ValidationContract = require('../validators/fluent-validator');
 const repository = require('../repositories/product-repository');
 
