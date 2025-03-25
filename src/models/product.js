@@ -32,6 +32,7 @@ const schema = new Schema({
         type: String,
         required: [true, 'O campo tags é obrigatório.'],
     }],
+    
 });
 
 module.exports = mongoose.model('Product', schema);
